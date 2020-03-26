@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+@media only screen and (min-width: 1024px) {
+body{
+margin: 0;    
+background-color: black;
+}
+
+
+.nav-bar{
+width: 100%;
+height: 70px;
+background-color: black;
+margin: 0;
+padding: 0;
+border-bottom: 1px solid #003366;
+
+}
+
+
+.liste{
+display: flex;
+flex-flow: row wrap;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+justify-content:space-between;
+
+}
+
+.liste li{
+ list-style-type: none; 
+color: white;
+margin-right: 10%;
+margin-top: -1.5%;
+}
+
+    .liste li a:hover{
+    color: lightgray;
+    }  
+
+
+.liste img{
+width: 90px;
+margin-top: 2%;
+border-radius: 40px;
+
+
+}
+
+.liste a{
+color: white;
+text-decoration: none;
+}
+
+
+.cars-portfoli{
+display: flex;
+flex-flow: column wrap;
+width: 100%;
+height: 100%;
+justify-content: center;
+}
+
+.cars{
+width: 95%;
+height: auto;
+background-color:#ff4b00;
+color: black;
+margin: 1%;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+margin-bottom: 1%;
+margin-left: 2.5%;
+border: 2px solid white;
+}
+
+.tekst-cars{
+ line-height: 1.5;
+width: 80.5%;
+}
+
+.cars h1{
+font-size: 350%;
+}
+
+.cars img{
+margin-bottom: 1%;
+width: 40%;
+border: 2px solid black;
+margin-left: 1%;
+}
+    
+
+.cars a{
+text-decoration: none;
+color: black;
+
+
+}
+
+.cars a:hover{
+color: lightgray;    
+}
+
+
+.cars-banner{
+width: 94%;
+height: auto;
+background-color:black;
+color: black;
+margin: 1%;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+color: white;
+font-size: 15px;
+margin-bottom: 1%;
+margin-left: 2.5%;    
+border: 10px solid white;
+}
+
+.cars-banner h1{
+font-size: 50px;    
+}
+
+.cars-banner a{
+text-decoration: none;
+color: white;
+}
+
+.cars-banner a:hover{
+color: lightgray;
+}
+ .footer-box{
+
+background-color: black;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+
+.footer-list{
+list-style-type: none;
+}
+
+.footer-list a{
+color: white;
+font-family:'Poppins', sans-serif;
+text-decoration: none;
+}
+
+    .footer-list a:hover{
+    color: lightgray;
+    }
+    
+    .vertical-linje{
+    width: 85%; 
+    color: white;
+    margin-left: 9%;
+    }
+    
+    .footer-logos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    }
+
+    .footer-logos img{
+    width: 50px; 
+    margin-left: 1.5%;
+        border-radius: 40px;
+
+    }
+    
+    .footer-logos a{
+    margin-left: 1.5%;  
+        border-radius: 40px;
+
+    }   
+    
+.footer-logos img:hover{
+    background-color: lightgray;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+body{
+margin: 0;    
+background-color: black;
+}
+    
+.nav-bar{
+width: 100%;
+height: 90px;
+background-color: black;
+margin: 0;
+padding: 0;
+
+
+}    
+    
+.liste img{
+width: 150px;
+border-radius: 40px;
+    
+}
+    
+.liste li{
+ list-style-type: none; 
+color: white;
+margin-left: 2%;
+margin-top: -1.5%;
+}
+
+.liste a{
+color: white;
+text-decoration: none;
+}
+    
+.liste a:hover{
+color: lightgray;
+}
+
+.liste{
+ font-family: 'Poppins', sans-serif;
+font-size: 20px;   
+}
+ 
+.cars-portfoli{
+display: flex;
+flex-flow: column wrap;
+width: 100%;
+height: 100%;
+justify-content: center;
+margin-top: 32%;
+}
+
+.cars{
+width: 95%;
+height: auto;
+background-color:#ff4b00;
+color: black;
+margin: 1%;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+margin-bottom: 1%;
+margin-left: 2.5%;
+
+}
+
+.tekst-cars{
+ line-height: 1.5;
+width: 80.5%;
+}
+
+.cars h1{
+font-size: 350%;
+
+}
+
+.cars img{
+margin-bottom: 1%;
+width: 40%;
+border: 2px solid black;
+margin-left: 1%;
+}
+    
+
+.cars a{
+text-decoration: none;
+color: black;
+
+
+}
+
+.cars a:hover{
+color: lightgray;    
+}
+
+.cars-banner{
+width: 93.5%;
+height: auto;
+background-color:black;
+color: black;
+margin: 1%;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+color: white;
+font-size: 15px;
+margin-bottom: 1%;
+margin-left: 2.5%;    
+border: 10px solid white;
+}
+
+.cars-banner h1{
+font-size: 50px;    
+}
+
+.cars-banner a{
+text-decoration: none;
+color: white;
+}
+
+.cars-banner a:hover{
+color: lightgray;
+}
+ .footer-box{
+
+background-color: black;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}    
+ 
+.footer-box{
+
+
+background-color: black;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+
+.footer-list{
+
+
+list-style-type: none;
+}
+
+.footer-list a{
+color: white;
+font-family:'Poppins', sans-serif;
+text-decoration: none;
+}
+
+    .footer-list a:hover{
+    color: lightgray;
+    }
+    
+    .vertical-linje{
+    width: 85%; 
+    color: white;
+    margin-left: 9%;
+    }
+    
+    .footer-logos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    }
+
+    .footer-logos img{
+    width: 50px; 
+    margin-left: 1.5%;
+        border-radius: 40px;
+
+    }
+    
+    .footer-logos a{
+    margin-left: 1.5%;  
+        border-radius: 40px;
+
+    }
+.footer-logos img:hover{
+    background-color: lightgray;
+    }    
+}
+
+
+
+@media screen and (max-width:767px){
+    body{
+margin: 0;    
+background-color: black;
+}
+    
+.nav-bar{
+width: 100%;
+height: 90px;
+background-color: black;
+margin: 0;
+padding: 0;
+
+
+}    
+    
+.liste img{
+width: 150px;
+border-radius: 40px;
+    
+}
+    
+.liste li{
+ list-style-type: none; 
+color: white;
+margin-left: 2%;
+margin-top: -1.5%;
+}
+
+.liste a{
+color: white;
+text-decoration: none;
+}
+    
+.liste a:hover{
+color: lightgray;
+}
+
+.liste{
+ font-family: 'Poppins', sans-serif;
+font-size: 20px;   
+}
+ 
+.cars-portfoli{
+display: flex;
+flex-flow: column wrap;
+width: 100%;
+height: 100%;
+justify-content: center;
+margin-top: 53%;
+}
+
+.cars{
+width: 95%;
+height: auto;
+background-color:#ff4b00;
+color: black;
+margin: 1%;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+margin-bottom: 1%;
+margin-left: 2.5%;
+}
+
+.tekst-cars{
+ line-height: 1.5;
+width: 80.5%;
+}
+
+.cars h1{
+font-size: 30px;
+
+}
+
+.cars img{
+margin-bottom: 1%;
+width: 40%;
+border: 2px solid black;
+margin-left: 1%;
+}
+    
+
+.cars a{
+text-decoration: none;
+color: black;
+
+
+}
+
+.cars a:hover{
+color: lightgray;    
+}
+
+.cars-banner{
+width: 91%;
+height: auto;
+background-color:black;
+color: black;
+margin: 1%;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+color: white;
+font-size: 15px;
+margin-bottom: 1%;
+margin-left: 2.5%;    
+border: 10px solid white;
+}
+
+.cars-banner h1{
+font-size: 35px;    
+}
+
+.cars-banner a{
+text-decoration: none;
+color: white;
+}
+
+.cars-banner a:hover{
+color: lightgray;
+}
+ .footer-box{
+
+background-color: black;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}    
+ 
+.footer-box{
+
+
+background-color: black;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+
+.footer-list{
+
+
+list-style-type: none;
+}
+
+.footer-list a{
+color: white;
+font-family:'Poppins', sans-serif;
+text-decoration: none;
+}
+
+    .footer-list a:hover{
+    color: lightgray;
+    }
+    
+    .vertical-linje{
+    width: 85%; 
+    color: white;
+    margin-left: 9%;
+    }
+    
+    .footer-logos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    }
+
+    .footer-logos img{
+    width: 50px; 
+    margin-left: 1.5%;
+        border-radius: 40px;
+
+    }
+    
+    .footer-logos a{
+    margin-left: 1.5%;  
+        border-radius: 40px;
+
+    }
+.footer-logos img:hover{
+    background-color: lightgray;
+    }     
+    
+}
+@media screen and (max-width:500px){
+.nav-bar{
+width: 100%;
+height: 90px;
+background-color: black;
+margin: 0;
+padding: 0;
+
+
+}
+
+
+.liste{
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+justify-content:space-between;
+
+}
+
+.liste li{
+ list-style-type: none; 
+color: white;
+margin-right: 10%;
+margin-top: -1.5%;
+}
+
+.liste a:hover{
+color: lightgray;
+}
+
+
+.liste img{
+width: 150px;
+margin-top: 2%;
+border-radius: 40px;
+
+
+}
+
+.liste a{
+color: white;
+text-decoration: none;
+}    
+    
+.cars-portfoli{
+display: flex;
+flex-flow: column wrap;
+width: 100%;
+height: 100%;
+justify-content: center;
+margin-top: 75%;
+}
+    .cars-banner h1 a{
+    font-size: 20px;    
+    }
+
+.cars{
+width: 95%;
+height: auto;
+background-color:#ff4b00;
+color: black;
+margin: 1%;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+margin-bottom: 1%;
+margin-left: 2.5%;
+}
+
+.tekst-cars{
+ line-height: 1.5;
+width: 80.5%;
+}
+
+.cars h1{
+font-size: 20px;
+
+}
+
+.cars img{
+margin-bottom: 1%;
+width: 40%;
+border: 2px solid black;
+margin-left: 1%;
+}
+    
+
+.cars a{
+text-decoration: none;
+color:black;
+
+
+}
+
+.cars a:hover{
+color: lightgray;    
+}
+
+.cars-banner{
+width: 89%;
+height: auto;
+background-color:black;
+color: black;
+margin: 1%;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+color: white;
+font-size: 15px;
+margin-bottom: 1%;
+margin-left: 2.5%;    
+border: 10px solid white;
+}
+
+.cars-banner h1{
+font-size: 35px;    
+}
+
+.cars-banner a{
+text-decoration: none;
+color: white;
+}
+
+.cars-banner a:hover{
+color: lightgray;
+}
+ .footer-box{
+
+background-color: black;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}    
+ 
+.footer-box{
+
+
+background-color: black;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+
+.footer-list{
+
+
+list-style-type: none;
+}
+
+.footer-list a{
+color: white;
+font-family:'Poppins', sans-serif;
+text-decoration: none;
+}
+
+    .footer-list a:hover{
+    color: lightgray;
+    }
+    
+    .vertical-linje{
+    width: 85%; 
+    color: white;
+    margin-left: 9%;
+    }
+    
+    .footer-logos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    }
+
+    .footer-logos img{
+    width: 50px; 
+    margin-left: 1.5%;
+        border-radius: 40px;
+
+    }
+    
+    .footer-logos a{
+    margin-left: 1.5%;  
+        border-radius: 40px;
+
+    }
+.footer-logos img:hover{
+    background-color: lightgray;
+    }         
+    
+}
+
+
+

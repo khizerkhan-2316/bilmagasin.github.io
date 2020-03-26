@@ -1,0 +1,842 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+@media only screen and (min-width: 1024px) {
+body{
+margin: 0;    
+background-color:black; 
+}
+    
+.nav-bar{
+width: 100%;
+height: 70px;
+background-color: black;
+margin: 0;
+padding: 0;
+border-bottom: 1px solid #003366;
+
+}
+
+
+.liste{
+display: flex;
+flex-flow: row wrap;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+justify-content:space-between;
+
+}
+
+.liste li{
+ list-style-type: none; 
+color: white;
+margin-right: 10%;
+margin-top: -1.5%;
+}
+
+.liste a:hover{
+color: lightgray;
+}
+
+
+.liste img{
+width: 90px;
+margin-top: 2%;
+
+
+
+
+}
+
+.liste a{
+color: white;
+text-decoration: none;
+}
+
+.artikel-kasse{
+width: 80%;
+height: auto;
+border: 1px solid black;
+margin-left: 10%;
+margin-top: 5%;
+background-color: #ff4b00;
+color: black;
+display: flex;
+flex-flow: row wrap;
+}
+
+.artikel-kasse h1{
+font-size: 40px;
+margin: 0;
+margin-top: 4%;
+margin-left: 4%;
+font-family: 'Teko', sans-serif;
+letter-spacing: 0.73px;
+}
+
+#artikel-dato{
+display: inline-flex;
+
+margin-left: 4%;
+}
+
+.artiklen{
+width: 100%;
+
+}
+
+.artikel-recommendation{
+width: 39.5%;
+
+}
+
+.artiklen img{
+width: 80%;    
+margin-left: 4%;
+border: 1px solid black;
+}
+    
+    #100{
+    width: 100%;
+    image-resolution: from-image;
+    height: 90%;
+    }
+
+.artiklen p{
+margin-left: 4%; 
+line-height: 2;
+color: black;
+width: 80%;
+font-family: font-family:   'Source Sans Pro', sans-serif;
+}
+
+.artiklen h3{
+margin-left: 4%;  
+width: 80%;
+font-family: 'Exo', sans-serif;
+
+}
+   #underline{
+text-decoration: underline;    
+}
+
+    
+    .udstyrstabel{
+    margin-left: 4%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    
+    }
+    
+    .tabeloverskrifter{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #003366;
+    text-align: center;
+   
+    
+    }
+    
+    #tabledata{
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+    
+    .specifikationer{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    margin-left: 4%;
+    color: black;
+   align-content: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    }
+    
+    .specifikationer h3{
+    margin: 0;    
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    
+    .specifikationer p{
+    color: black;
+    margin: 0;
+    margin-left: 1%;
+    }
+    
+    .container{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    height: auto;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Source Sans Pro', sans-serif;
+    margin-top:4%;
+    }
+    .container img{
+    width: 100%; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    }
+    
+    .container button{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #003366;
+    border-color: #003366;
+    width: 100%;
+    padding: 1%;
+    
+   
+    }
+    
+    .container button a{
+    color: white;
+    text-decoration: none;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    transition-duration: 3;
+    
+    }
+    
+    .container button a:hover{
+    color: lightgray;
+    }
+    
+    
+   
+.footer-box{
+
+background-color: black;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+margin-top: 3%;
+}
+
+.footer-list{
+list-style-type: none;
+}
+
+.footer-list a{
+color: white;
+font-family:'Poppins', sans-serif;
+text-decoration: none;
+}
+
+    .footer-list a:hover{
+    color: lightgray;
+    }
+    
+    .vertical-linje{
+    width: 85%; 
+    color: white;
+    margin-left: 9%;
+    }
+    
+    .footer-logos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+    }
+
+    .footer-logos img{
+    width: 50px; 
+    margin-left: 1.5%;
+        border-radius: 40px;
+
+    }
+    
+    .footer-logos a{
+    margin-left: 1.5%;  
+        border-radius: 40px;
+
+    }   
+    
+.footer-logos img:hover{
+    background-color: lightgray;
+    }
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:1023px) {   
+body{
+margin: 0;    
+background-color: black;
+}
+   .nav-bar{
+width: 100%;
+height: auto;
+background-color: black;
+margin: 0;
+padding: 0;
+
+} 
+    
+
+.liste img{
+width: 150px;
+border-radius: 40px;
+    
+}
+    
+.liste li{
+ list-style-type: none; 
+color: white;
+margin-left: 2%;
+margin-top: -1.5%;
+}
+
+.liste a{
+color: white;
+text-decoration: none;
+}
+    
+.liste a:hover{
+color: lightgray;
+}
+
+.liste{
+ font-family: 'Poppins', sans-serif;
+font-size: 20px;   
+}
+.artikel-kasse{
+width: 87%;
+height: auto;
+border: 1px solid black;
+margin-left: 7%;
+margin-top: 5%;
+background-color: #ff4b00;
+color: black;
+display: flex;
+flex-flow: row wrap;
+}
+
+.artikel-kasse h1{
+font-size: 28px;
+margin: 0;
+margin-top: 4%;
+margin-left: 4%;
+font-family: 'Teko', sans-serif;
+letter-spacing: 0.73px;
+
+}
+
+#artikel-dato{
+display: inline-flex;
+
+margin-left: 4%;
+}
+
+.artiklen{
+width: 100%;
+
+}
+
+.artikel-recommendation{
+width: 39.5%;
+
+}
+
+.artiklen img{
+width: 80%;    
+margin-left: 4%;
+border: 1px solid black;
+}
+
+.artiklen p{
+margin-left: 4%; 
+line-height: 2;
+color: black;
+width: 80%;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.artiklen h3{
+margin-left: 4%;  
+width: 80%;
+font-family: 'Exo', sans-serif;
+}
+    
+.udstyrstabel{
+    margin-left: 4%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    
+    }
+    
+    .tabeloverskrifter{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #003366;
+    text-align: center;
+   
+    
+    }
+    
+    #tabledata{
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+    
+     .container{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    height: auto;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Source Sans Pro', sans-serif;
+    }
+    .container img{
+    width: 100%; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    }
+    
+    .container button{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #003366;
+    border-color: #003366;
+    width: 100%;
+    padding: 1%;
+    font-size: 15px;
+    
+   
+    }
+    
+    .container button a{
+    color: white;
+    text-decoration: none;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    transition-duration: 3;
+    
+    }
+    
+    .container button a:hover{
+    color: lightgray;
+    }
+    
+
+#underline{
+text-decoration: underline;    
+}
+
+.footer-box{
+
+background-color: black;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+margin-top: 3%;
+}
+
+.footer-list{
+list-style-type: none;
+}
+
+.footer-list a{
+color: white;
+font-family:'Poppins', sans-serif;
+text-decoration: none;
+}
+
+    .footer-list a:hover{
+    color: lightgray;
+    }
+    
+    .vertical-linje{
+    width: 85%; 
+    color: white;
+    margin-left: 9%;
+    }
+    
+    .footer-logos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+    }
+
+    .footer-logos img{
+    width: 50px; 
+    margin-left: 1.5%;
+        border-radius: 40px;
+
+    }
+    
+    .footer-logos a{
+    margin-left: 1.5%;  
+        border-radius: 40px;
+
+    }   
+    
+.footer-logos img:hover{
+    background-color: lightgray;
+    }    
+    
+}
+
+@media screen and (max-width:767px){
+body{
+margin: 0;    
+background-color: black;
+}
+   .nav-bar{
+width: 100%;
+height: auto;
+background-color: black;
+margin: 0;
+padding: 0;
+
+} 
+    
+
+.liste img{
+width: 150px;
+border-radius: 40px;
+    
+}
+    
+.liste li{
+ list-style-type: none; 
+color: white;
+margin-left: 2%;
+margin-top: -1.5%;
+}
+
+.liste a{
+color: white;
+text-decoration: none;
+}
+    
+.liste a:hover{
+color: lightgray;
+}
+
+.liste{
+ font-family: 'Poppins', sans-serif;
+font-size: 20px;   
+}
+.artikel-kasse{
+width: 87%;
+height: auto;
+border: 1px solid black;
+margin-left: 7%;
+margin-top: 5%;
+background-color: #ff4b00;
+color: black;
+display: flex;
+flex-flow: row wrap;
+}
+
+.artikel-kasse h1{
+font-size: 28px;
+margin: 0;
+margin-top: 4%;
+margin-left: 4%;
+font-family: 'Teko', sans-serif;
+letter-spacing: 0.73px;
+
+
+}
+
+#artikel-dato{
+display: inline-flex;
+margin-left: 4%;
+}
+
+.artiklen{
+width: 100%;
+
+}
+
+.artikel-recommendation{
+width: 39.5%;
+
+}
+
+.artiklen img{
+width: 80%;    
+margin-left: 4%;
+border: 1px solid black;
+}
+
+.artiklen p{
+margin-left: 4%; 
+line-height: 2;
+color: black;
+width: 80%;
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.artiklen h3{
+margin-left: 4%;  
+width: 80%;
+font-family: 'Exo', sans-serif;
+}
+    
+.udstyrstabel{
+    margin-left: 4%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    
+    }
+    
+    .tabeloverskrifter{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #003366;
+    text-align: center;
+   
+    
+    }
+    
+    #tabledata{
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+   .container{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    height: auto;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Source Sans Pro', sans-serif;
+    }
+    .container img{
+    width: 100%; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    }
+    
+    .container button{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #003366;
+    border-color: #003366;
+    width: 100%;
+    padding: 1%;
+    
+   
+    }
+    
+    .container button a{
+    color: white;
+    text-decoration: none;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 11px;
+    transition-duration: 3;
+    
+    }
+    
+    .container button a:hover{
+    color: lightgray;
+    }
+    
+#underline{
+text-decoration: underline;    
+}
+
+.footer-box{
+
+background-color: black;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+margin-top: 3%;
+}
+
+.footer-list{
+list-style-type: none;
+}
+
+.footer-list a{
+color: white;
+font-family:'Poppins', sans-serif;
+text-decoration: none;
+}
+
+    .footer-list a:hover{
+    color: lightgray;
+    }
+    
+    .vertical-linje{
+    width: 85%; 
+    color: white;
+    margin-left: 9%;
+    }
+    
+    .footer-logos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+    }
+
+    .footer-logos img{
+    width: 50px; 
+    margin-left: 1.5%;
+        border-radius: 40px;
+
+    }
+    
+    .footer-logos a{
+    margin-left: 1.5%;  
+        border-radius: 40px;
+
+    }   
+    
+.footer-logos img:hover{
+    background-color: lightgray;
+    }        
+}
+
+@media screen and (max-width:500px){
+    body{
+    background-color: black;
+    }
+    
+.artikel-kasse h1{
+font-size: 30px;
+margin: 0;
+margin-top: 4%;
+margin-left: 4%;
+font-family: 'Teko', sans-serif;
+letter-spacing: 0.73px;
+
+}
+    #under-rubrik{
+    font-size: 17px;    
+    }
+    
+    .artiklen h3{
+    font-family: 'Exo', sans-serif;    
+    }
+    
+   .artiklen p{
+margin-left: 4%; 
+line-height: 2;
+color: black;
+width: 80%;
+font-family: 'Source Sans Pro', sans-serif;
+}
+    
+    .udstyrstabel{
+    margin-left: 4%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    
+    }
+    
+    .tabeloverskrifter{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #003366;
+    text-align: center;
+   
+    
+    }
+    
+    #tabledata{
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+    
+       .container{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    height: auto;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Source Sans Pro', sans-serif;
+    }
+    .container img{
+    width: 100%; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    }
+    
+    .container button{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #003366;
+    border-color: #003366;
+    width: 100%;
+    padding: 1%;
+    
+   
+    }
+    
+    .container button a{
+    color: white;
+    text-decoration: none;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 7px;
+    transition-duration: 3;
+    
+    }
+    
+    .container button a:hover{
+    color: lightgray;
+    }
+    
+    
+}
+
+
+
+
+
